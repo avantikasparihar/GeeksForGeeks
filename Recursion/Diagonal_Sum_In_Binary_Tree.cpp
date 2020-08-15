@@ -18,6 +18,8 @@ void recursion(map<int, int> &mp, Node* root, int lvl) {
 vector <int> diagonalSum(Node* root) {
     // only gravity will pull me down
 
+    // Diagonal Sum In Binary Tree
+
     map<int, int> mp;   // for inserting the sums to respective levels
     vector<int> res;
     
