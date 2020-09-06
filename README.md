@@ -2,4 +2,19 @@
 
 My solutions to gfg problems.
 
-I hope I don't procrastinate DSA any more than I already have :3
+*An effort to maintain consistency.*
+
+**Important References** :
+
+* [Big int in C++](https://www.geeksforgeeks.org/advanced-c-boost-library/)
+```cpp
+#include <boost/multiprecision/cpp_int.hpp> 
+using namespace boost::multiprecision; 
+using namespace std;
+```
+* [lowerbound and upperbound](https://www.geeksforgeeks.org/upper_bound-and-lower_bound-for-vector-in-cpp-stl/)
+```cpp
+vector<int>::iterator lower,upper; 
+lower = lower_bound (v.begin(), v.end(), val);  
+upper = upper_bound (v.begin(), v.end(), val);  
+```
