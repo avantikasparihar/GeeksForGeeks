@@ -6,7 +6,7 @@ My solutions to gfg problems.
 
 **Important References** :
 
-* [Big int in C++](https://www.geeksforgeeks.org/advanced-c-boost-library/)
+* [big int in C++](https://www.geeksforgeeks.org/advanced-c-boost-library/)
 ```cpp
 #include <boost/multiprecision/cpp_int.hpp> 
 using namespace boost::multiprecision; 
@@ -17,4 +17,10 @@ using namespace std;
 vector<int>::iterator lower,upper; 
 lower = lower_bound (v.begin(), v.end(), val);  
 upper = upper_bound (v.begin(), v.end(), val);  
+```
+* special case in strings as input
+```cpp
+cin >> b;    // int as input
+cin.ignore();   // used when taking input of a string after a number
+getline(cin, d);    // a sentence as input
 ```
