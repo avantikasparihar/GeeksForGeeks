@@ -30,3 +30,4 @@ string str3(5, '#');    // str3="#####"
 string str4(str1, 6, 6);    // next 6 chars starting from char at index 6 of str1
 string str5(str2.begin(), str2.begin() + 5);    // same as above, uses iterator
 ```
+* [Algorithm library in STL](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)
