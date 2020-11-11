@@ -6,7 +6,7 @@ int n,k,u,v;
 int g[20][20];
 
 int dfs(int u, int v, int k) {
-    int count[n][n][k + 1]; 
+    int count[n][n][k + 1];    // 1st D-source node, 2nd D-destination node, 3rd D-no of edges from source to dest. 
     
     for (int e = 0; e <= k; e++) {    // dfs + dp
         for (int i = 0; i < n; i++) { 
